@@ -1387,6 +1387,18 @@ ShareNetwork
 <p>ShareNetwork holds information about the share network (used for shared file systems like NFS)</p>
 </td>
 </tr>
+<tr>
+<td>
+<code>snaNetwork</code></br>
+<em>
+string
+</em>
+</td>
+<td>
+<em>(Optional)</em>
+<p>SNANetwork for testing setting custom values</p>
+</td>
+</tr>
 </tbody>
 </table>
 <h3 id="openstack.provider.extensions.gardener.cloud/v1alpha1.NodeStatus">NodeStatus

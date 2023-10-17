@@ -53,6 +53,10 @@ type Networks struct {
 	// ShareNetwork holds information about the share network (used for shared file systems like NFS)
 	// +optional
 	ShareNetwork *ShareNetwork `json:"shareNetwork,omitempty"`
+
+	// SNANetwork for testing setting custom values
+	// +optional
+	SNANetwork *string `json:"snaNetwork,omitempty"`
 }
 
 // Router indicates whether to use an existing router or create a new one.
