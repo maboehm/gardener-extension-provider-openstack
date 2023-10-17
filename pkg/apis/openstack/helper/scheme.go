@@ -45,7 +45,7 @@ func init() {
 	Scheme = runtime.NewScheme()
 	utilruntime.Must(install.AddToScheme(Scheme))
 
-	decoder = serializer.NewCodecFactory(Scheme, serializer.EnableStrict).UniversalDecoder()
+	decoder = serializer.NewCodecFactory(Scheme, serializer.DisableStrict).UniversalDecoder()
 	lenientDecoder = serializer.NewCodecFactory(Scheme).UniversalDecoder()
 }
 
